@@ -31,4 +31,4 @@
 
 ## 📥 Download
 
-[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)]((https://github.com/Abdul-Rahman-Waseem/space-explorer/releases/tag/release-1.0))
+[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/Abdul-Rahman-Waseem/space-explorer/releases/tag/release-1.0)
