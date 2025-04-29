@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "95171934727",
+    "project_id": "space-ex-26f00",
+    "storage_bucket": "space-ex-26f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95171934727:android:a2c2bc2fd2241448dec8a2",
+        "android_client_info": {
+          "package_name": "com.example.spaceex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTBOWNQCHr5-YCaLtucJKL9WbSJXscvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

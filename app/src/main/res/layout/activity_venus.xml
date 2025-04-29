@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/p9"
+        tools:context=".Earth">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="204dp"
+            android:layout_height="338dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="124dp"
+            android:text="2"
+            android:textColor="#701D1A1A"
+            android:textSize="280dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="32dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/p6" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="253dp"
+            android:layout_height="358dp"
+            android:layout_marginTop="4dp"
+            android:padding="0dp"
+            android:paddingStart="0dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/p17" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="1dp"
+            android:text="venus"
+            android:textColor="#0D3C57"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="299dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="24dp"
+            android:text="Venus is the second planet from the Sun, known for its thick atmosphere and surface temperatures hot enough to melt lead."
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:text="Some Crisp Points:"
+            android:textColor="#0D3C57"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:text="- Venus is the second planet from the Sun.\n- It has a thick, toxic atmosphere mainly composed of carbon dioxide.\n- Its surface temperature can reach up to 475 degrees Celsius.\n- A day on Venus lasts about 243 Earth days.\n- Venus has surface pressures 92 times greater than Earth's.\n- It has no moons."
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:text="Exploration Programs:"
+            android:textColor="#0D3C57"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:text="Mariner 2:\n\t\tFirst successful mission to Venus; flyby in 1962 provided initial close-up images and data.\nMagellan:\n\t\tOrbited Venus from 1990 to 1994, mapping its surface with radar.\nVenera Program:\n\t\tSoviet missions that successfully landed on Venus, providing surface images and data.\nAkatsuki:\n\t\tJapanese mission currently studying Venus's atmosphere and weather patterns.\nVeritas:\n\t\tProposed mission to map Venus's surface and study its geological history."
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="324dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            app:circularflow_radiusInDP="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.363"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/p50" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

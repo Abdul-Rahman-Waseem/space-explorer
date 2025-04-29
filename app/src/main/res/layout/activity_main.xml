@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Space Explorer"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_rew" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="266dp"
+            android:layout_height="424dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="222dp">
+
+            <!--000000000000000000000000000000000000000000000000000000000000000000000000-->
+
+            <!--11111111111-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/constraintLayout1"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:alpha="01"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout1"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p34"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewmer"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewmer"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewmer"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textViewmer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Mercury"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewmerc"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Mercury is the closest planet to the Sun known..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewmer" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewmer"
+                    android:layout_width="190dp"
+                    android:layout_height="182dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p23"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout1"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout1"
+                    app:srcCompat="@drawable/p5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--22222222222222-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/constraintLayout2"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:alpha="0"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout2"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p35"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewmer11"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewmer11"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewmer11"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textViewmer11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Venus"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textViewmerc111"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Venus is the second planet from the Sun, known..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewmer11" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewmer11"
+                    android:layout_width="211dp"
+                    android:layout_height="183dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p14"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
+                    app:srcCompat="@drawable/p5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--33333333333333-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/constraintLayout3"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:orientation="vertical"
+                android:alpha="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout3"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p4"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                    app:layout_constraintStart_toStartOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/imageView3"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Earth"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView3.1"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Earth is the third planet from the Sun, known for..."
+
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="238dp"
+                    android:layout_height="209dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p3"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout3"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout3"
+                    app:srcCompat="@drawable/p5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--44444444444444-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/constraintLayout4"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:orientation="vertical"
+                android:alpha="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout4"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p36"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView222"
+                    app:layout_constraintStart_toStartOf="@+id/imageView222"
+                    app:layout_constraintTop_toTopOf="@+id/imageView222"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textView222"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Mars"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView2222"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Mars is the fourth planet from the Sun, known..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView222" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageView222"
+                    android:layout_width="216dp"
+                    android:layout_height="187dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p25"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout4"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout4"
+                    app:srcCompat="@drawable/p5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--55555555555555-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/constraintLayout5"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:orientation="vertical"
+                android:alpha="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout5"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p37"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView322"
+                    app:layout_constraintStart_toStartOf="@+id/imageView322"
+                    app:layout_constraintTop_toTopOf="@+id/imageView322"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textView322"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Jupiter"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView3222"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Jupiter is the fifth planet from the Sun, known..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView322" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageView322"
+                    android:layout_width="183dp"
+                    android:layout_height="180dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p19"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout5"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout5"
+                    app:srcCompat="@drawable/p5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--66666666666666-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/constraintLayout6"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:orientation="vertical"
+                android:alpha="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout6"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p38"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView355"
+                    app:layout_constraintStart_toStartOf="@+id/imageView355"
+                    app:layout_constraintTop_toTopOf="@+id/imageView355"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textView355"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Saturn"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView3.155"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Saturn is the sixth planet from the Sun, known..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView355" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageView355"
+                    android:layout_width="300dp"
+                    android:layout_height="195dp"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p29"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout6"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout6"
+                    app:srcCompat="@drawable/p5" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--77777777777777-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout7_root"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:orientation="vertical"
+                android:alpha="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout7"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p39"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView377"
+                    app:layout_constraintStart_toStartOf="@+id/imageView377"
+                    app:layout_constraintTop_toTopOf="@+id/imageView377"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textView377"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Uranus"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView3177"
+                        android:layout_width="160dp"
+                        android:layout_height="74dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Uranus is seventh planet from Sun, noted..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView377" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageView377"
+                    android:layout_width="310dp"
+                    android:layout_height="190dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p31"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout7"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout7"
+                    app:srcCompat="@drawable/p5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--88888888888888-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout8_root"
+                android:layout_width="266dp"
+                android:layout_height="424dp"
+                android:orientation="vertical"
+                android:alpha="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout8"
+                    android:layout_width="224dp"
+                    android:layout_height="279dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/p40"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView344"
+                    app:layout_constraintStart_toStartOf="@+id/imageView344"
+                    app:layout_constraintTop_toTopOf="@+id/imageView344"
+                    app:layout_constraintVertical_bias="0.169">
+
+                    <TextView
+                        android:id="@+id/textView344"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="77dp"
+                        android:text="Neptune"
+                        android:textColor="#0D3C57"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView3444"
+                        android:layout_width="194dp"
+                        android:layout_height="72dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Neptune is the eighth planet from the Sun, distinguished..."
+                        android:textSize="18dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView344" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/imageView344"
+                    android:layout_width="176dp"
+                    android:layout_height="172dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/p11"
+                    tools:layout_conversion_absoluteHeight="228dp"
+                    tools:layout_conversion_absoluteWidth="260dp" />
+
+                <ImageView
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout8"
+                    app:layout_constraintStart_toStartOf="@+id/constraintLayout8"
+                    app:srcCompat="@drawable/p5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="146dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_ff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Making Space available for everyone."
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
